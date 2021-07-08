@@ -1,0 +1,187 @@
+/* asterisco afeta todos os elementos do html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y:content;
+}
+
+p, label, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* PÁGINA LOGIN */
+
+
+.card-login {
+    margin-top: 20vh;
+}
+
+.login a {
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+/* GERAL */
+
+/* NAVBAR */
+
+.ib-navbar-logo {
+    height: 32px;
+}
+
+/* ÍCONE MENU MOBILE  */
+.fa-bars {
+    color:#fff;
+    font-size:28px;
+}
+
+/* NOTIFICAÇÕES */
+
+#contadorAlertas {
+    vertical-align: top;
+    margin-left: -12px;
+}
+
+#boxAlertas {
+    width: 434px;
+}
+
+/* MANTER TEXTO DA MENSAGEM DENTRO DO DROPDOWN-MENU */
+.dropdown-message {
+    overflow: hidden;
+    white-space: normal;
+}
+
+/* DROPDOWN USUÁRIO - PERFIL / CONFIGURAÇÕES */
+
+#dropdownUser {
+    min-width: 180px;
+}
+
+
+/* PÁGINA HOME */
+
+    /* CARD POST ADMIN */
+
+    /* BARRA QUE FICA ACIMA DO CARD PARA O FEED PASSAR POR BAIXO */
+    .card-post-admin-bar {
+        height: 10px;
+        margin-top: 60px;
+    }
+
+    /* BOX SHADOW DO CARD ADMIN */
+    .card-post-admin {
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #modalPostAdmin {
+        height: 625px;
+    }
+
+    /* ÍCONES SOCIAL */
+
+    .socials i {
+        margin-right: 14px;
+        font-size: 17px;
+        color: #d2c8c8;
+        cursor: pointer;
+    }
+
+
+/* PÁGINA DESAFIOS */
+
+#criar-desafio {
+    margin-top: 80px;
+}
+
+/* CAROUSEL CARDS DESAFIOS */
+
+.card img {
+    max-height: 228px;
+}
+
+.card-title-desafios {
+    height: 86px;
+}
+
+.card-body-desafios {
+    height: 224px;
+    background-color: #dadada;
+}
+
+.carousel-indicators {
+    bottom: -54px;
+}
+
+.carousel-indicators li {
+    background-color: #929292;
+    border-radius: 36%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #0275d8;
+    top: auto;
+    left: 0;
+    
+}
+
+
+/* PÁGINA DESAFIO EXEMPLO */
+
+/* HEADER */
+
+#desafioExemplo {
+    margin-top: 80px;
+}
+
+/* PONTUAÇÕES E DATAS */
+
+.bg-light-blue {
+    background-color: #d8e9f3;
+}
+
+/* CARDS IDEIAS */
+
+#cardIdeias {
+    height: 625px;
+}
+
+.scroll {
+    max-height: 236px;
+    overflow-y: auto;
+}
+
+#suaSugestao {
+    height: 142px;
+}
+
+#seuComentario {
+    height: 142px;
+}
+
+/* FAZER MENU MOBILE SCROLLAR */
+
+/* O @media vai fazer o css ser aplicado apenas em telas com largura máxima de 992px */
+
+@media (max-width: 992px) {
+    #navbarMobile {
+        max-height: 100vh;
+	    overflow-y: scroll;
+    }
+
+    /* #botaoAlertasMobile {
+        margin-left: 136px;
+    } */
+
+}
